@@ -3,14 +3,13 @@
 -undefind
 -numero
 -stringa
--boleano
+-boleani
 -any*/
 
 /*2) Crea tre variabili tipizzate: una stringa con il tuo nome, un numero con la tua età, e un booleano che indica se stai studiando TypeScript.*/
-
-let myName:string ="matilde";
-let myAge:number =23;
-let myStudy: boolean= true;
+let myName: string = "matilde";
+let myAge: number = 23;
+let myStudy: boolean = true;
 
 /*3) Tipizza il parametro della seguente funzione:*/
 
@@ -55,6 +54,10 @@ variabile(55);
 let indecisa: number|null|undefined;
 
 /*9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.*/
+type days= 'lunedi'|'martedi'|'mercoledì'|'giovedi'|'venerdi'|'sabato'|'domenica';
+let settimanaDay : days;
+
+
 
 /*10) Tipizza il seguente array di numeri nei due modi possibili:*/
 
